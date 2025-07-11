@@ -300,3 +300,69 @@ main input[type="email"]::placeholder {
   color: rgba(0, 0, 0, 0.5);
   opacity: 1;
 }
+
+/* Feedback section style */
+.feedback {
+  margin: 140px 150px;
+}
+
+.feedback-title {
+  color: #252432;
+  font-size: 42px;
+  margin: 0px 0px 50px;
+}
+
+.testimonials-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.testimonial-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.testimonial-card-title {
+  color: #1e1e1e;
+  font-size: 24px;
+  margin: 24px 0px 0px;
+}
+
+.testimonial-card-text {
+  color: #1e1e1e;
+  font-size: 16px;
+  margin: 10px 0px 25px;
+}
+img.hidden {
+  visibility: hidden;
+}
+
+.reviewer {
+  display: flex;
+  gap: 15px;
+}
+
+.reviewer-name {
+  font-weight: bold;
+  color: #757575;
+  margin: 0;
+}
+
+.review-date {
+  color: #b3b3b3;
+  margin: 0;
+}
+
+.reviewer-info {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.reviewer-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
