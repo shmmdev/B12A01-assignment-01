@@ -66,6 +66,7 @@ nav {
 
 .banner {
   margin: 158px 267.5px 0px;
+  padding: 0px 0px 152px;
 }
 
 .banner-title {
@@ -73,10 +74,7 @@ nav {
   font-weight: bold;
   color: #252432;
   margin: 0 0;
-}
-
-.banner-btn-container {
-  padding: 37px 0px 152px 0px;
+  padding-bottom: 37px;
 }
 
 /* Preview Section Style */
@@ -192,4 +190,25 @@ footer {
   color: #8987a1;
   font-size: 16px;
   text-decoration: none;
+}
+
+/* Focus Section Styles */
+
+.focus {
+  background-color: white;
+  margin: 0px 150px;
+  padding: 70px 150px;
+}
+
+.focus-title {
+  font-size: 50px;
+  font-weight: bold;
+  color: #000000;
+  margin: 0px;
+  padding: 0px;
+}
+
+.focus-img {
+  margin-top: 20px;
+  border-radius: 48px;
 }
