@@ -154,3 +154,40 @@ nav {
   margin: 0px 0px;
   padding: 0px 0px;
 }
+
+/* Footer Style */
+footer {
+  margin: 0px;
+  padding: 105px 450px;
+  background-color: white;
+}
+
+.footer-logo {
+  font-size: 100px;
+  color: #4e47ff;
+  font-weight: 800;
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer-text {
+  font-family: "Inter", sans-serif;
+  color: #8987a1;
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer-links-container {
+  display: flex;
+  margin: 20px 65px 0px;
+  padding: 0px;
+  justify-content: space-between;
+}
+
+.footer-link {
+  font-family: "Inter", sans-serif;
+  color: #8987a1;
+  font-size: 16px;
+  text-decoration: none;
+}
