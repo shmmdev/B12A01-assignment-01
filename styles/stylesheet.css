@@ -215,6 +215,13 @@ footer {
   padding: 0px;
 }
 
+.focus-text {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 20px 0px;
+  padding: 0px;
+}
+
 .focus-img {
   margin-top: 20px;
   border-radius: 48px;
@@ -362,7 +369,7 @@ img.hidden {
 }
 
 .reviewer-img {
-  width: 45px;
-  height: 45px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
 }
