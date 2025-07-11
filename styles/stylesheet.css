@@ -114,3 +114,43 @@ nav {
 }
 
 /* Success Counter Style */
+
+.success-count {
+  margin: 116px 150px;
+  background-color: rgba(78, 71, 255, 0.1);
+  padding: 50px 0px;
+}
+
+.success-title {
+  font-size: 38px;
+  font-weight: bold;
+  color: #252432;
+  margin: 10px 0px;
+  padding: 0px 0px 40px;
+}
+
+.counter-container {
+  display: flex;
+  margin: 0px 142px;
+  justify-content: space-between;
+}
+
+.counter {
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+.count-title {
+  color: #4e47ff;
+  font-size: 80px;
+  font-weight: bold;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+.count-text {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
