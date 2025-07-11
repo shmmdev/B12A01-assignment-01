@@ -27,10 +27,15 @@
   padding: 12px 36px;
   border-radius: 5px;
   border: none;
+  cursor: pointer;
 }
 
 .text-center {
   text-align: center;
+}
+
+.full-width {
+  width: 100%;
 }
 
 /* Body styles */
@@ -211,4 +216,84 @@ footer {
 .focus-img {
   margin-top: 20px;
   border-radius: 48px;
+}
+
+/* Contact Section Style */
+.contact {
+  display: flex;
+  background-color: #f5f8ff;
+  margin: 95px 150px 0px;
+  gap: 115px;
+}
+
+.contact-title-container {
+  width: 530px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-title {
+  color: #000000;
+  font-size: 98px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contact Form Style */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container {
+  flex: 1;
+}
+
+form label {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+main input[type="text"],
+main input[type="email"] {
+  height: 30px;
+  width: calc(100% - 32px);
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  color: #757575;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 24px;
+  padding: 20px 0px 20px 32px;
+  border: none;
+}
+
+main textarea {
+  font-family: "Open Sans", sans-serif;
+  height: 128px;
+  width: calc(100% - 32px);
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  color: #757575;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 24px;
+  padding: 20px 0px 20px 32px;
+  border: none;
+  resize: none;
+  overflow: auto;
+}
+
+main textarea::placeholder,
+main input[type="text"]::placeholder,
+main input[type="email"]::placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
 }
